@@ -1,6 +1,5 @@
 {
   "name": "my-new-project",
-  "type": "module",
   "devDependencies": {
     "@wdio/allure-reporter": "^8.0.13",
     "@wdio/cli": "^8.0.13",

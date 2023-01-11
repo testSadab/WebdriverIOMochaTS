@@ -3,13 +3,12 @@
         "resolveJsonModule": true,
         "esModuleInterop": true,
         "moduleResolution": "node",
-        "module": "ESNext",
+        "target": "ESNext",
         "types": [
             "node",
             "@wdio/globals/types",
             "expect-webdriverio",
             "@wdio/mocha-framework"
-        ],
-        "target": "es2022"
+        ]
     }
 }

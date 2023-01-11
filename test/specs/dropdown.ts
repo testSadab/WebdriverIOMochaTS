@@ -1,4 +1,4 @@
-import dropdownPage from "../pageobjects/dropdown.page.js";
+import dropdownPage from "../pageobjects/dropdown.page";
 
 describe('feature: handle dropdown', () => {
 

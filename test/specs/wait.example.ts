@@ -1,4 +1,4 @@
-import waitPage from "../pageobjects/wait.page.js";
+import waitPage from "../pageobjects/wait.page";
 
 describe('feature: wait strategy', () => {
 
