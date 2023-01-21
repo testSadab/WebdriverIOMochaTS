@@ -1,0 +1,16 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: webdriverio-v8-typescript-mocha@undefined
+npm ERR! Found: @wdio/cli@8.2.1
+npm ERR! node_modules/@wdio/cli
+npm ERR!   dev @wdio/cli@"^8.0.13" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer @wdio/cli@"^5.8.4" from wdio-mochawesome-reporter@4.0.0
+npm ERR! node_modules/wdio-mochawesome-reporter
+npm ERR!   dev wdio-mochawesome-reporter@"*" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
