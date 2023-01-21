@@ -1,0 +1,53 @@
+// below error comes when you use "mochawesome-report-generator": "^6.2.0"
+
+✘ Some files could not be processed:
+reports/wdio-ma-merged.json
+  Invalid value "success" supplied to /stats/passPercentClass: Nil
+  Invalid value "danger" supplied to /stats/pendingPercentClass: Nil
+  Invalid value undefined supplied to /results: Array<Suite>
+  Invalid value {
+  "title": "",
+  "suites": [
+    {
+      "title": "My Login application (chrome.109_0_5414_87.macosx)",
+      "suites": [],
+      "tests": [
+        {
+          "title": "should login with valid credentials",
+          "fullTitle": "should login with valid credentials",
+          "timedOut": false,
+          "duration": 4164,
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "code": "",
+          "isRoot": false,
+          "uuid": "75eacd98-d8da-480b-8532-1531a460dd0b",
+          "parentUUID": "92503d4a-29f7-4667-a571-fb2853cc4904",
+          "skipped": false,
+          "isHook": false,
+          "context": "[{\"title\":\"Session Id\",\"value\":\"e8f4c391d76438303911e09e44ce09b5\"}]",
+          "state": "passed",
+          "err": {}
+        }
+      ],
+      "pending": [],
+      "root": false,
+      "fullFile": "",
+      "file": "",
+      "passes": [
+        "75eacd98-d8da-480b-8532-1531a460dd0b"
+      ],
+      "failures": [],
+      "skipped": [],
+      "duration": 4169,
+      "_timeout": 0,
+      "uuid": "92503d4a-29f7-4667-a571-fb2853cc4904",
+      "beforeHooks": [],
+      "afterHooks": []
+    }
+  ],
+  "tests": [],
+  "pending": [],
+  "root": true,
