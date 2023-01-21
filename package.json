@@ -1,5 +1,5 @@
 {
-  "name": "my-new-project",
+  "name": "webdriverio-v8-typescript-mocha",
   "devDependencies": {
     "@wdio/allure-reporter": "^8.0.13",
     "@wdio/cli": "^8.0.13",
