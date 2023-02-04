@@ -7,12 +7,16 @@
     "@wdio/mocha-framework": "^8.2.1",
     "@wdio/spec-reporter": "^8.1.2",
     "chromedriver": "^109.0.0",
+    "geckodriver": "^3.2.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4",
-    "wdio-chromedriver-service": "^8.0.1"
+    "wdio-chromedriver-service": "^8.0.1",
+    "wdio-geckodriver-service": "^4.0.0"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "test": "wdio run ./wdio.conf.ts",
+    "test:firefox": "wdio run ./wdio.conf.firefox.ts",
+    "test:cross-browser": "wdio run ./wdio.conf.cross-browser.ts"
   },
   "dependencies": {
     "npm-check-updates": "^16.6.2"
