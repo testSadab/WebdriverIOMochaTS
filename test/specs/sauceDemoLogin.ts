@@ -1,5 +1,5 @@
-import sauceLoginPage from "../pageobjects/sauce.login.page";
 import logindata from "../data/login.json";
+import sauceLoginPage from "../pageobjects/sauce.login.page";
 
 describe("Sauce demo app login", () => {
 

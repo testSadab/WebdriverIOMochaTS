@@ -8,11 +8,11 @@ class SauceLoginPage extends Page {
 
     get productTitle() { return $(".title"); }
 
-    get userHeader()  {return $("#login_credentials >h4"); }
-    get loginAreaElement()  { return $("#login_credentials"); }
-    
+    get userHeader() { return $("#login_credentials >h4"); }
+    get loginAreaElement() { return $("#login_credentials"); }
 
-    async performLogin(username:string, password:string) {
+
+    async performLogin(username: string, password: string) {
         await this.userNameTextBox.setValue(username);
         await this.passwordTextBox.setValue(password);
         await this.loginButton.click();

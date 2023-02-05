@@ -2,14 +2,14 @@ import waitPage from "../pageobjects/wait.page";
 
 describe('feature: wait strategy', () => {
 
-    beforeEach("open app", async ()=> {
+    beforeEach("open app", async () => {
         await browser.url("https://the-internet.herokuapp.com/dynamic_loading/1");
         await browser.maximizeWindow();
     })
 
     it('should wait for element to appear', async () => {
         await waitPage.clickStartButton();
-        await waitPage.helloWorldHeader.waitForDisplayed({timeout: 10000, timeoutMsg: "failed for header to appear"})
+        await waitPage.helloWorldHeader.waitForDisplayed({ timeout: 10000, timeoutMsg: "failed for header to appear" })
         await expect(waitPage.helloWorldHeader).toHaveText("Hello World!");
     });
 
@@ -19,7 +19,7 @@ describe('feature: wait strategy', () => {
         await expect(waitPage.helloWorldHeader).toHaveText("Hello World!");
     });
 
-    it.only("should wait for element to disappear", async ()=> {
+    it("should wait for element to disappear", async () => {
         await waitPage.clickStartButton();
         await waitPage.waitForLoadingIconToDisappear();
         await expect(waitPage.helloWorldHeader).toHaveText("Hello World!");

@@ -1,4 +1,4 @@
-import type { Options } from '@wdio/types'
+import type { Options } from '@wdio/types';
 
 export const config: Options.Testrunner = {
     //
@@ -31,7 +31,7 @@ export const config: Options.Testrunner = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/example.e2e.ts'
+        './test/specs/**/*.ts'
     ],
     // Patterns to exclude.
     exclude: [
