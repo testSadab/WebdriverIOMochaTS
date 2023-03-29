@@ -13,9 +13,12 @@
   "scripts": {
     "test": "wdio run ./wdio.conf.ts",
     "test:firefox": "wdio run ./wdio.conf.firefox.ts",
-    "test:cross-browser": "wdio run ./wdio.conf.cross-browser.ts"
+    "test:edge": "wdio run ./wdio.conf.edge.ts",
+    "test:cross-browser": "wdio run ./wdio.conf.cross-browser.ts",
+    "report": "allure generate allure-results --clean && allure open"
   },
   "dependencies": {
+    "allure-commandline": "^2.21.0",
     "npm-check-updates": "^16.6.2"
   }
 }
